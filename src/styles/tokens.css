@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #0f0f0f;
+  --color-board: #795f49;
+  --color-accent: #d0b091;
+  --color-text: #fff;
+  --color-muted: #aaa9a3;
+  --color-card: rgba(208, 176, 145, .11);
+  --color-highlight: rgba(208, 176, 145, .35);
+  --color-border: #795f49;
+  --font-body: "Inter", Arial, sans-serif;
+  --font-heading: "Junge", Georgia, serif;
+  --font-label: "Poppins", Arial, sans-serif;
+  --font-brand: "Playfair", Georgia, serif;
+  --font-display: "Roboto", Arial, sans-serif;
+  --font-year: "Alumni Sans", Arial, sans-serif;
+  --radius-board: 18px;
+  --radius-panel: 22px;
+  --radius-image: 15px;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --content-max: 1336px;
+}

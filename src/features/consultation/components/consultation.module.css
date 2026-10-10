@@ -1,0 +1,9 @@
+.form { max-width: 800px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.form label { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+.form input:not([type=checkbox]), .form textarea, .form select { width: 100%; padding: 14px; background: #201c19; color: white; border: 1px solid var(--color-border); border-radius: 8px; }
+.full, .consent { grid-column: 1 / -1; }
+.form .consent { flex-direction: row; flex-wrap: wrap; align-items: center; }
+.consent input { width: 20px; height: 20px; accent-color: var(--color-accent); }
+.submit { background: white; color: black; border: 0; border-radius: var(--radius-pill); padding: 14px 24px; width: fit-content; }
+.error { color: #ffc9b8; font-size: 12px; }
+@media (max-width: 650px) { .form { grid-template-columns: 1fr; } }
